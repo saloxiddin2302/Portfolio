@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: #F2F4F5;
+}
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.ant-layout-sider {
+  height: 100vh;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+  height: calc(100vh - 64px);
+  overflow: scroll;
+}
+
+:where(.css-17a39f8).ant-row {
+  display: inline !important;
+  flex-flow: row wrap;
+  min-width: 0;
+}
